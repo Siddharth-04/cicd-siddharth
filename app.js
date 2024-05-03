@@ -2,7 +2,7 @@ console.log("Hi,this is app.js");
 console.log(new Date());
 console.log("Added line 3");
 console.log("Edited in browser");
-const app= req('express')();
+const app= require('express')();
 app.get('/',(req,res)=>{
     req.json({message:"server running"});
 })
