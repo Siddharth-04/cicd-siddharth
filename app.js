@@ -8,5 +8,6 @@ app.get('/',(req,res)=>{
 })
 
 app.listen(7000,()=>{
+    console("Hi")
     console.log("server running on 7000");
 })
