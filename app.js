@@ -4,7 +4,7 @@ console.log("Added line 3");
 console.log("Edited in browser");
 const app= require('express')();
 app.get('/',(req,res)=>{
-    req.json({message:"server running"});
+    res.json({message:"server running"});
 })
 
 app.listen(7000,()=>{
